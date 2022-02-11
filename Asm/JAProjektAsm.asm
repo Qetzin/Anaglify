@@ -1,4 +1,3 @@
-
 .data
 
 BlueGreenMask dd 0FFFF00FFh,0FFFF00FFh, 0, 0FFFF00FFh,   ; Bitmaska dla kolorów Zielony-Niebieski
