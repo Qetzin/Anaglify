@@ -20,7 +20,6 @@ namespace AsmProj
 
 
         private OpenFileDialog ofile;
-        private object lock0 = new Object();
         String option = "";
         float diff = 0.0f;
         int numberThreads = Environment.ProcessorCount;
@@ -112,7 +111,7 @@ namespace AsmProj
             }            
         }
 
-        private async void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             if (option == "C#" && !pictureBoxempty)
             {

@@ -24,8 +24,7 @@ namespace AsmProj
 
             for (int i = start; i < end; i += bytesPerPixel)
             {
-                int B = tabR[i];
-                int G = tabR[i + 1];
+
                 int R = tabR[i + 2];
 
                 tabR[i] = 0;
@@ -47,7 +46,6 @@ namespace AsmProj
             {
                 int B = tabBG[i];
                 int G = tabBG[i + 1];
-                int R = tabBG[i + 2];
 
                 tabBG[i] = B;
                 tabBG[i + 1] = G;
