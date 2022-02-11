@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AsmProj": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
