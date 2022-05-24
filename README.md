@@ -1,7 +1,7 @@
 # Anaglify
 Projekt z języków asemblerowych.
 
-Projekt porównujący szybkość wykonania tej samej operacji w języku assemblerowym i w języku C#. 
+Projekt porównujący szybkość wykonania tej samej operacji w języku asemblerowym i w języku C#. 
 
 Użytkownik podaje zdjęcie png, wybiera ilość wątków, intensywność efektu anaglifu oraz bibliotekę, która będzie przerabiać zestaw danych (C#/Asm). 
 
